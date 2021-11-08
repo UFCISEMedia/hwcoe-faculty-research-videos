@@ -1,0 +1,89 @@
+{
+	"key": "group_5c98d94ccccb9",
+	"title": "Faculty Research Videos",
+	"fields": [
+		{
+			"key": "field_618966962ec87",
+			"label": "Display Name",
+			"name": "display_name",
+			"type": "text",
+			"instructions": "What you type in this field will be how the faculty member's name is displayed. The title field is only used for sort order on the page.",
+			"required": 1,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"default_value": "",
+			"placeholder": "",
+			"prepend": "",
+			"append": "",
+			"maxlength": ""
+		},
+		{
+			"key": "field_5c98dfafd827f",
+			"label": "Lab Weblink",
+			"name": "lab_weblink",
+			"type": "text",
+			"instructions": "",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"default_value": "",
+			"placeholder": "",
+			"prepend": "",
+			"append": "",
+			"maxlength": ""
+		},
+		{
+			"key": "field_5c98da46ffcdc",
+			"label": "Video Link",
+			"name": "video_link",
+			"type": "wysiwyg",
+			"instructions": "",
+			"required": 1,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"default_value": "",
+			"tabs": "all",
+			"toolbar": "full",
+			"media_upload": 1,
+			"delay": 0
+		}
+	],
+	"location": [
+		[
+			{
+				"param": "post_type",
+				"operator": "==",
+				"value": "facresvideos"
+			}
+		]
+	],
+	"menu_order": 0,
+	"position": "acf_after_title",
+	"style": "default",
+	"label_placement": "top",
+	"instruction_placement": "label",
+	"hide_on_screen": [
+		"the_content",
+		"discussion",
+		"comments",
+		"revisions",
+		"author",
+		"format",
+		"tags",
+		"send-trackbacks"
+	],
+	"active": true,
+	"description": ""
+}
