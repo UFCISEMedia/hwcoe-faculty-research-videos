@@ -70,11 +70,11 @@ Class FacultyResearch {
 		
 		$dispCount  = (int) $posts_per_page;
 		if($dispCount==60){
-			$colmd = three;
+			$colmd = 'three';
 		}else if($dispCount=="3"){
-			$colmd = three; 
+			$colmd = 'three'; 
 		}else{
-			$colmd = three;
+			$colmd = 'three';
 		}
 		$query = new WP_Query( $args  );
 
