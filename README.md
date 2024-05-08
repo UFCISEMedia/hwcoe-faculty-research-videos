@@ -1,4 +1,4 @@
-# Company Functionality
+# Faculty Research Videos
 Contributors: Allison Logan
 This plugin is specifically for use with the hwcoe-ufl theme. It allows administrators to display faculty videos in a tiled format utilizing popups.
 
